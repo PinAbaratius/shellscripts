@@ -1,0 +1,279 @@
+{
+  "timestamp": "20260725-213611",
+  "mode": "dry-run",
+  "csv": "/home/brodtadr/shellskripts/Shelly_4PM_Master_gemappt.csv",
+  "devices": [
+    {
+      "ip": "192.168.178.138",
+      "shelly_id": "15",
+      "device_id": "shellypro4pm-5c013b04ef1c",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "TEST-SH138",
+          "desired": "SH-4PM-15-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "TEST-O1",
+          "desired": "WZ-15-0-WZ-LED-SPOTS"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-15-1-WZ-LED-INNEN"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-15-2-WZ-LED-RING"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "KU-15-3-FREE"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.143",
+      "shelly_id": "24",
+      "device_id": "shellypro4pm-ece334e94c5c",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-24-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-24-0-SD07-C-TE-RECHTS-KUECHE"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-24-1-SD08-A-TE-MITTE"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-24-2-SD08-B-TE-MITTE"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-24-3-SD08-C-TE-MITTE"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.157",
+      "shelly_id": "23",
+      "device_id": "shellypro4pm-ece334e55684",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-23-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-23-0-SD06-B-TE-LINKS"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-23-1-SD06-C-TE-LINKS"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-23-2-SD07-A-TE-RECHTS-KUECHE"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-23-3-SD07-B-TE-RECHTS-KUECHE"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.158",
+      "shelly_id": "20",
+      "device_id": "shellypro4pm-5c013b04ca20",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-20-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-20-0-SD02-B-EZ-LS-NB"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-20-1-SD02-C-EZ-LS-NB"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-20-2-SD03-A-EZ-KUE"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-20-3-SD03-B-EZ-KUE"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.159",
+      "shelly_id": "21",
+      "device_id": "shellypro4pm-ece334e56684",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-21-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-21-0-SD03-C-EZ-KUE"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-21-1-SD04-A-TV-LINKS"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-21-2-SD04-B-TV-LINKS"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-21-3-SD04-C-TV-LINKS"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.160",
+      "shelly_id": "22",
+      "device_id": "shellypro4pm-14335cc55768",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-22-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-22-0-SD05-A-TV-RECHTS"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-22-1-SD05-B-TV-RECHTS"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-22-2-SD05-C-TV-RECHTS"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-22-3-SD06-A-TE-LINKS"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "ip": "192.168.178.161",
+      "shelly_id": "19",
+      "device_id": "shellypro4pm-14335cc55cbc",
+      "status": "dry-run-change",
+      "changes": [
+        {
+          "kind": "device",
+          "current": "",
+          "desired": "SH-4PM-19-UV-KU-R"
+        },
+        {
+          "kind": "channel",
+          "channel": 0,
+          "current": "",
+          "desired": "WZ-19-0-SD01-A-NB-STR"
+        },
+        {
+          "kind": "channel",
+          "channel": 1,
+          "current": "",
+          "desired": "WZ-19-1-SD01-B-NB-STR"
+        },
+        {
+          "kind": "channel",
+          "channel": 2,
+          "current": "",
+          "desired": "WZ-19-2-SD01-C-NB-STR"
+        },
+        {
+          "kind": "channel",
+          "channel": 3,
+          "current": "",
+          "desired": "WZ-19-3-SD02-A-EZ-LS-NB"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "devices_total": 7,
+    "devices_with_changes": 7,
+    "fields_with_changes": 35,
+    "errors": 0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260726-010051",
+  "action": "firmware-update-stable",
+  "target": "192.168.178.121",
+  "mode": "apply",
+  "source": "/home/brodtadr/shellskripts/Shelly_Gesamtmapping_final_bestaetigt.tsv",
+  "devices": [
+    {
+      "ip": "192.168.178.121",
+      "device_name": "SH-2PM-EG-FL-B",
+      "device_id": "shellypro2pm-ec62608b7e6c",
+      "status": "updated-and-verified",
+      "errors": [],
+      "identity": {
+        "name": "SH-2PM-EG-FL-B",
+        "id": "shellypro2pm-ec62608b7e6c",
+        "mac": "EC62608B7E6C",
+        "slot": 0,
+        "model": "SPSW-202PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095848/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro2PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "profile": "switch",
+        "provision": "complete"
+      },
+      "available_update": {
+        "stable": {
+          "version": "2.0.0",
+          "build_id": "20260710-101218/2.0.0-g87fbfa4"
+        }
+      },
+      "current_version": "1.7.5",
+      "expected_version": "2.0.0",
+      "expected_build_id": "20260710-101218/2.0.0-g87fbfa4",
+      "backup_before": "/home/brodtadr/shellskripts/shellyctl-backup-firmware-update-stable-20260726-010051/192.168.178.121_shellypro2pm-ec62608b7e6c_before.json",
+      "update_result": null,
+      "backup_after": "/home/brodtadr/shellskripts/shellyctl-backup-firmware-update-stable-20260726-010051/192.168.178.121_shellypro2pm-ec62608b7e6c_after.json",
+      "verified_identity": {
+        "name": "SH-2PM-EG-FL-B",
+        "id": "shellypro2pm-ec62608b7e6c",
+        "mac": "EC62608B7E6C",
+        "slot": 1,
+        "model": "SPSW-202PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101218/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro2PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "profile": "switch",
+        "provision": "complete",
+        "enhanced_security": false
+      }
+    }
+  ],
+  "summary": {
+    "devices_selected": 1,
+    "devices_ok": 1,
+    "devices_skipped": 0,
+    "already_correct": 0,
+    "changes_needed_or_planned": 1,
+    "applied": 1,
+    "rpc_calls_executed": 0,
+    "errors": 0
+  }
+}

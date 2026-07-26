@@ -1,0 +1,54 @@
+{
+  "timestamp": "20260726-010356",
+  "action": "rpc",
+  "target": "192.168.178.121",
+  "mode": "read",
+  "source": "/home/brodtadr/shellskripts/Shelly_Gesamtmapping_final_bestaetigt.tsv",
+  "devices": [
+    {
+      "ip": "192.168.178.121",
+      "device_name": "SH-2PM-EG-FL-B",
+      "device_id": "shellypro2pm-ec62608b7e6c",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-2PM-EG-FL-B",
+        "id": "shellypro2pm-ec62608b7e6c",
+        "mac": "EC62608B7E6C",
+        "slot": 1,
+        "model": "SPSW-202PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101218/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro2PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "profile": "switch",
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {},
+          "result": {
+            "rpc": {
+              "enable": false
+            }
+          },
+          "status": "executed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "devices_selected": 1,
+    "devices_ok": 1,
+    "devices_skipped": 0,
+    "already_correct": 0,
+    "changes_needed_or_planned": 0,
+    "applied": 0,
+    "rpc_calls_executed": 1,
+    "errors": 0
+  }
+}

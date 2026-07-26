@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "name": "WZ-21-2-SD06-B-TV-L",
+  "in_mode": "follow",
+  "in_locked": false,
+  "initial_state": "match_input",
+  "auto_on": false,
+  "auto_on_delay": 60.0,
+  "auto_off": false,
+  "auto_off_delay": 60.0,
+  "power_limit": 4480,
+  "voltage_limit": 280,
+  "undervoltage_limit": 0,
+  "autorecover_voltage_errors": false,
+  "current_limit": 16.0,
+  "reverse": false
+}

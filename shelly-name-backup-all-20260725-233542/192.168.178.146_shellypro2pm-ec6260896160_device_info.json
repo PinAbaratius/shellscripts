@@ -1,0 +1,15 @@
+{
+  "name": null,
+  "id": "shellypro2pm-ec6260896160",
+  "mac": "EC6260896160",
+  "slot": 1,
+  "model": "SPSW-202PE16EU",
+  "gen": 2,
+  "fw_id": "20260311-095848/1.7.5-g9979d16",
+  "ver": "1.7.5",
+  "app": "Pro2PM",
+  "auth_en": false,
+  "auth_domain": null,
+  "profile": "switch",
+  "provision": "complete"
+}

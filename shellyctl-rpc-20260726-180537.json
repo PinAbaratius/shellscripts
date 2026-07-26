@@ -1,0 +1,481 @@
+{
+  "timestamp": "20260726-180537",
+  "action": "rpc",
+  "target": "192.168.178.129,192.168.178.131,192.168.178.135,192.168.178.137,192.168.178.138,192.168.178.139,192.168.178.141,192.168.178.143,192.168.178.157,192.168.178.158,192.168.178.159,192.168.178.160,192.168.178.161",
+  "mode": "apply",
+  "source": "/home/brodtadr/shellskripts/Shelly_Gesamtmapping_final_bestaetigt.tsv",
+  "devices": [
+    {
+      "ip": "192.168.178.129",
+      "device_name": "SH-CO-EG-ME-A",
+      "device_id": "shellypro2cover-2cbcbbb0f6d4",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-EG-ME-A",
+        "id": "shellypro2cover-2cbcbbb0f6d4",
+        "mac": "2CBCBBB0F6D4",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.131",
+      "device_name": "SH-CO-OG-SZ-A",
+      "device_id": "shellypro2cover-2cbcbbb104c0",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-OG-SZ-A",
+        "id": "shellypro2cover-2cbcbbb104c0",
+        "mac": "2CBCBBB104C0",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.135",
+      "device_name": "SH-CO-EG-AD-A",
+      "device_id": "shellypro2cover-2cbcbbb12204",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-EG-AD-A",
+        "id": "shellypro2cover-2cbcbbb12204",
+        "mac": "2CBCBBB12204",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.137",
+      "device_name": "SH-CO-EG-EZ-A",
+      "device_id": "shellypro2cover-2cbcbbb0cbb8",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-EG-EZ-A",
+        "id": "shellypro2cover-2cbcbbb0cbb8",
+        "mac": "2CBCBBB0CBB8",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.138",
+      "device_name": "SH-4PM-15-UV-KU-R",
+      "device_id": "shellypro4pm-5c013b04ef1c",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-15-UV-KU-R",
+        "id": "shellypro4pm-5c013b04ef1c",
+        "mac": "5C013B04EF1C",
+        "slot": 1,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.139",
+      "device_name": "SH-CO-EG-WZ-A",
+      "device_id": "shellypro2cover-2cbcbbb0b934",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-EG-WZ-A",
+        "id": "shellypro2cover-2cbcbbb0b934",
+        "mac": "2CBCBBB0B934",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.141",
+      "device_name": "SH-CO-EG-WZ-B",
+      "device_id": "shellypro2cover-2cbcbbb1221c",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-CO-EG-WZ-B",
+        "id": "shellypro2cover-2cbcbbb1221c",
+        "mac": "2CBCBBB1221C",
+        "slot": 1,
+        "model": "SPSH-002PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.143",
+      "device_name": "SH-4PM-24-UV-KU-R",
+      "device_id": "shellypro4pm-ece334e94c5c",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-24-UV-KU-R",
+        "id": "shellypro4pm-ece334e94c5c",
+        "mac": "ECE334E94C5C",
+        "slot": 1,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.157",
+      "device_name": "SH-4PM-23-UV-KU-R",
+      "device_id": "shellypro4pm-ece334e55684",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-23-UV-KU-R",
+        "id": "shellypro4pm-ece334e55684",
+        "mac": "ECE334E55684",
+        "slot": 0,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.158",
+      "device_name": "SH-4PM-20-UV-KU-R",
+      "device_id": "shellypro4pm-5c013b04ca20",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-20-UV-KU-R",
+        "id": "shellypro4pm-5c013b04ca20",
+        "mac": "5C013B04CA20",
+        "slot": 1,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.159",
+      "device_name": "SH-4PM-21-UV-KU-R",
+      "device_id": "shellypro4pm-ece334e56684",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-21-UV-KU-R",
+        "id": "shellypro4pm-ece334e56684",
+        "mac": "ECE334E56684",
+        "slot": 0,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.160",
+      "device_name": "SH-4PM-22-UV-KU-R",
+      "device_id": "shellypro4pm-14335cc55768",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-22-UV-KU-R",
+        "id": "shellypro4pm-14335cc55768",
+        "mac": "14335CC55768",
+        "slot": 1,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260710-101208/2.0.0-g87fbfa4",
+        "ver": "2.0.0",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete",
+        "enhanced_security": false
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": true
+          },
+          "status": "executed"
+        }
+      ]
+    },
+    {
+      "ip": "192.168.178.161",
+      "device_name": "SH-4PM-19-UV-KU-R",
+      "device_id": "shellypro4pm-14335cc55cbc",
+      "status": "processed",
+      "errors": [],
+      "identity": {
+        "name": "SH-4PM-19-UV-KU-R",
+        "id": "shellypro4pm-14335cc55cbc",
+        "mac": "14335CC55CBC",
+        "slot": 0,
+        "model": "SPSW-204PE16EU",
+        "gen": 2,
+        "fw_id": "20260311-095905/1.7.5-g9979d16",
+        "ver": "1.7.5",
+        "app": "Pro4PM",
+        "auth_en": false,
+        "auth_domain": null,
+        "provision": "complete"
+      },
+      "calls": [
+        {
+          "channel": null,
+          "params": {
+            "config": {
+              "idle_brightness": 0
+            }
+          },
+          "result": {
+            "restart_required": false
+          },
+          "status": "executed"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "devices_selected": 13,
+    "devices_ok": 13,
+    "devices_skipped": 0,
+    "already_correct": 0,
+    "changes_needed_or_planned": 0,
+    "applied": 13,
+    "rpc_calls_executed": 13,
+    "errors": 0
+  }
+}

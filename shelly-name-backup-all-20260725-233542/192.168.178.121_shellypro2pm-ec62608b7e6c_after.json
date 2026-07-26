@@ -1,0 +1,167 @@
+{
+  "ble": {
+    "enable": false,
+    "rpc": {
+      "enable": false
+    }
+  },
+  "bthome": {},
+  "cloud": {
+    "enable": true,
+    "server": "shelly-33-eu.shelly.cloud:6022/jrpc"
+  },
+  "eth": {
+    "enable": true,
+    "server_mode": false,
+    "ipv4mode": "dhcp",
+    "ip": null,
+    "netmask": null,
+    "gw": null,
+    "nameserver": null
+  },
+  "input:0": {
+    "id": 0,
+    "name": null,
+    "type": "button",
+    "enable": true,
+    "invert": false
+  },
+  "input:1": {
+    "id": 1,
+    "name": null,
+    "type": "button",
+    "enable": true,
+    "invert": false
+  },
+  "knx": {
+    "enable": false,
+    "ia": "15.15.255",
+    "routing": {
+      "addr": "224.0.23.12:3671"
+    }
+  },
+  "mqtt": {
+    "enable": false,
+    "server": null,
+    "client_id": "shellypro2pm-ec62608b7e6c",
+    "user": null,
+    "ssl_ca": null,
+    "topic_prefix": "shellypro2pm-ec62608b7e6c",
+    "rpc_ntf": true,
+    "status_ntf": false,
+    "use_client_cert": false,
+    "enable_rpc": true,
+    "enable_control": true
+  },
+  "switch:0": {
+    "id": 0,
+    "name": "2PM-04-0-FREE",
+    "in_mode": "momentary",
+    "in_locked": false,
+    "initial_state": "off",
+    "auto_on": false,
+    "auto_on_delay": 60.0,
+    "auto_off": false,
+    "auto_off_delay": 60.0,
+    "power_limit": 4480,
+    "voltage_limit": 280,
+    "undervoltage_limit": 0,
+    "autorecover_voltage_errors": false,
+    "current_limit": 16.0,
+    "reverse": false
+  },
+  "switch:1": {
+    "id": 1,
+    "name": "2PM-04-1-FREE",
+    "in_mode": "momentary",
+    "in_locked": false,
+    "initial_state": "off",
+    "auto_on": false,
+    "auto_on_delay": 60.0,
+    "auto_off": false,
+    "auto_off_delay": 60.0,
+    "power_limit": 4480,
+    "voltage_limit": 280,
+    "undervoltage_limit": 0,
+    "autorecover_voltage_errors": false,
+    "current_limit": 16.0,
+    "reverse": false
+  },
+  "sys": {
+    "device": {
+      "name": "SH-2PM-EG-FL-B",
+      "mac": "EC62608B7E6C",
+      "fw_id": "20260311-095848/1.7.5-g9979d16",
+      "discoverable": true,
+      "eco_mode": false,
+      "profile": "switch",
+      "sys_btn_toggle": false
+    },
+    "location": {
+      "tz": "Europe/Berlin",
+      "lat": 54.7289,
+      "lon": 9.4992
+    },
+    "debug": {
+      "level": 2,
+      "file_level": null,
+      "mqtt": {
+        "enable": false
+      },
+      "websocket": {
+        "enable": false
+      },
+      "udp": {
+        "addr": null
+      }
+    },
+    "ui_data": {},
+    "rpc_udp": {
+      "dst_addr": null,
+      "listen_port": null
+    },
+    "sntp": {
+      "server": "time.cloudflare.com"
+    },
+    "cfg_rev": 22
+  },
+  "wifi": {
+    "ap": {
+      "ssid": "ShellyPro2PM-EC62608B7E6C",
+      "is_open": true,
+      "enable": false,
+      "range_extender": {
+        "enable": false
+      }
+    },
+    "sta": {
+      "ssid": "Bubblegum",
+      "is_open": false,
+      "enable": true,
+      "ipv4mode": "dhcp",
+      "ip": null,
+      "netmask": null,
+      "gw": null,
+      "nameserver": null
+    },
+    "sta1": {
+      "ssid": null,
+      "is_open": true,
+      "enable": false,
+      "ipv4mode": "dhcp",
+      "ip": null,
+      "netmask": null,
+      "gw": null,
+      "nameserver": null
+    },
+    "roam": {
+      "rssi_thr": -80,
+      "interval": 60
+    }
+  },
+  "ws": {
+    "enable": false,
+    "server": null,
+    "ssl_ca": "ca.pem"
+  }
+}

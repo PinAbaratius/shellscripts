@@ -1,0 +1,14 @@
+{
+  "name": null,
+  "id": "shellyprodm2pm-ac15187b138c",
+  "mac": "AC15187B138C",
+  "slot": 1,
+  "model": "SPDM-002PE01EU",
+  "gen": 2,
+  "fw_id": "20260311-095853/1.7.5-g9979d16",
+  "ver": "1.7.5",
+  "app": "ProDimmerx",
+  "auth_en": false,
+  "auth_domain": null,
+  "provision": "complete"
+}
